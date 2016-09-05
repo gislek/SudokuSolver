@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25123.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sudoku", "Sudoku\Sudoku.csproj", "{5B4423EC-3F66-481A-A8CB-725B5AE07FCD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SudokuSolver", "SudokuSolver\SudokuSolver.csproj", "{D80F2324-E2C8-4B25-9BC5-AC5FD5210481}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Boards", "Boards", "{89860332-70D1-4A0A-98C1-3496C109C415}"
+	ProjectSection(SolutionItems) = preProject
+		Boards\Easy.csv = Boards\Easy.csv
+		Boards\Evil.csv = Boards\Evil.csv
+		Boards\Hard.csv = Boards\Hard.csv
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5B4423EC-3F66-481A-A8CB-725B5AE07FCD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5B4423EC-3F66-481A-A8CB-725B5AE07FCD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5B4423EC-3F66-481A-A8CB-725B5AE07FCD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5B4423EC-3F66-481A-A8CB-725B5AE07FCD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D80F2324-E2C8-4B25-9BC5-AC5FD5210481}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D80F2324-E2C8-4B25-9BC5-AC5FD5210481}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D80F2324-E2C8-4B25-9BC5-AC5FD5210481}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D80F2324-E2C8-4B25-9BC5-AC5FD5210481}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
